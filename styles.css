@@ -28,7 +28,7 @@ li{
    line-height: 20px;
 }
 
-section p{
+.author{
   margin-right: 220px;
   margin-bottom: 40px;
 }
@@ -37,6 +37,6 @@ blockquote{
   margin-top: 40px;
 }
 
-footer p{
+.link{
   font-weight: bold;
 }
