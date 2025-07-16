@@ -3,17 +3,17 @@ body{
   background-color: rgb(240, 240, 240);
 }
 
-h1, p{
+.header-title, .header-subtitle, .footer-text{
   text-align: center;
 }
 
-.image-container{
+.image-section{
   text-align: center;
   background-color: white;
   padding-bottom: 8px;
 }
 
-figcaption{
+.photo-caption{
   margin-top: 12px;
 }
 
@@ -28,14 +28,14 @@ li{
    line-height: 20px;
 }
 
-.prime-minister{
+.quote-author{
   margin: 40px 220px 40px 0;
 }
 
-.prime-minister , .quote{
+.quote-author , .quote-text{
   font-style: italic;
 }
 
-.paragraph-link{
+.footer-text{
   font-weight: bold;
 }
