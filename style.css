@@ -1,3 +1,41 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(240, 240, 240);
+}
 
+h1, p{
+  text-align: center;
+}
 
+.image-container{
+  text-align: center;
+  background-color: white;
+  padding-bottom: 8px;
+}
 
+figcaption{
+  margin-top: 12px;
+}
+
+.author-history{
+  margin: 0 auto;
+  width: 35rem;
+  margin-top: 20px;
+}
+
+li{
+   margin-bottom: 10px;
+   line-height: 20px;
+}
+
+.prime-minister{
+  margin: 40px 220px 40px 0;
+}
+
+.prime-minister , .quote{
+  font-style: italic;
+}
+
+.paragraph-link{
+  font-weight: bold;
+}
