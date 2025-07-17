@@ -1,20 +1,54 @@
-.borlaug-page{
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(240, 240, 240);
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.header-title, .header-subtitle, .footer-text{
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+}
+
+.page-container{
+  background-color: rgb(240, 240, 240);
+  margin: 15px 7px;
+  padding: 0 10px 40px;
+  border-radius: 2px;
+}
+
+/* header*/
+.page-header{
+  padding: 25px;
+}
+
+.header-title{
+  margin-bottom: 10px;
+}
+
+.header-subtitle{
+  margin-bottom: -14px;
+}
+
+.page-header,
+.image-section,
+.footer-text,
+.figure-photo{
   text-align: center;
 }
 
 .image-section{
-  text-align: center;
-  background-color: white;
-  padding-bottom: 0.5rem;
+  background-color: #ffffff;
 }
 
 .photo-caption{
-  margin-top: 0.75rem;
+  padding: 10px 0;
+  font-size: 0.960em;
+}
+
+/*content*/
+.author-bio{
+  margin: 3rem 0 2rem 8rem;
+  font-size: 1.2rem;
 }
 
 .author-history{
